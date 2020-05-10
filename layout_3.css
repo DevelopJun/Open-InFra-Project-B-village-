@@ -1,0 +1,66 @@
+/* color picker usage: ctrl+alt+C */
+html, body{
+  margin:0px;
+  border: 2px solid lightgray;
+}
+
+nav a{
+  text-decoration: none;
+}
+
+#wrap p {
+  line-height: 170%;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+nav li {
+  display: inline-block;
+  position:relative;
+  left: 300px;
+  border-radius: 5px;
+  background: #B0C4DE;
+  width: 11%;
+  margin: 0 1% 0 0;
+  padding: 11px 0;
+  font-weight:bold;
+  font-size:13px;
+  box-shadow: 2px 2px 5px slategrey;
+  margin-bottom: 5px;
+}
+
+section {
+  border-top:7px solid lightgray;
+  border-bottom:7px solid lightgray;
+}
+
+#wrap {
+  margin: 0px 5px;
+  overflow: auto;
+}
+
+.up {
+  border-bottom: 2px solid lightgray;
+}
+
+.down {
+  margin-bottom: 30px;
+}
+
+img {
+  border: 10px solid gray;
+  margin: 70px 0 50px 60px;
+  width:330px;
+}
+
+.word {
+  float:right;
+  width:45%;
+  margin: 55px 200px 0 0;
+}
+
+footer{
+  text-align: center;
+  color:slategrey;
+  clear:both;
+}
