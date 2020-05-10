@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html >
+<head>
+<meta charset="EUC-KR">
+<title>메인화면</title>
+<style>
+	*{margin:0; padding:0;}
+	body{width:100%; margin:0 auto;
+		 background:#e6e6e6;}
+	a{text-decoration:none;}
+	ul{list-style:none;}
+	li{list-style:none;}
+	
+	nav{background:white; margin:10px 0px; padding:30px 0px; text-align:right; }
+
+	nav ul{display : inline-block; margin-right:80px; }
+	nav li {display : inline-block;
+			background-color:#48D1CC;
+			margin-left:10px;
+		   	width:160px;
+		   	height:40px;
+		   	line-height:40px; color:purple; font-weight:bold;
+			text-align:center; box-shadow: 2px 2px 20px grey;}
+	#content{margin-bottom:10px; background:white;}
+	.article{padding:80px;  overflow:auto;}
+	.article p{font-size: 18px;font-weight:bold; margin-bottom:10px;}
+
+	.photo{border:8px solid grey; float:left; margin-right:100px;}
+	
+	
+	footer{padding:20px; background-color:white; text-align:center; color:grey;}
+	
+		
+</style>
+</head>
+<body>
+	<nav>
+		<ul>
+			<li><a href="index.html">홈</a></li>
+			<li><a href="aboutme.html">자기소개</a></li>
+			<li><a href="photo.html">내사진</a></li>
+			<li><a href="http://localhost:8080/aboutme/today">몇시예요</a></li>			
+		</ul>
+	</nav>
+	<section id="content">
+		<div class="article">
+			<img class="photo" alt="크롱" src="img/crong.jpg" width="400px" height="300px"/>
+			<p>2001.03.11</p>
+			<p>제가 크롱일때 찍은 사진입니다.</p>
+			<p>이 때는 뽀로로의 집에서 신나게 놀던 때입니다.</p>
+		</div>
+		<div class="article">
+			<img class="photo" alt="심슨" src="img/simpson.png" width="400px" height="300px"/>
+			<p>2031.03.11</p>
+			<p>결혼 후에는 이런 모습이네요.. @.@</p>
+			<p>건강한 모습을 유지하고 있습니다.</p>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+			<p>Fusce et ligula fermentum, mattis justo et, ultricies mauris.
+			Donec enim felis</p>
+		</div>
+		
+		
+		
+	</section>
+	<footer>
+		<p>crong@codesquad.kr</p>
+		<p>http://github.com/crong</p>
+	</footer>
+
+</body>
+
+</html>
